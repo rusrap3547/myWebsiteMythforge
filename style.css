@@ -1,23 +1,16 @@
 body {
 	background-color: lightgrey;
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 }
 h1 {
 	text-align: center;
-  justify-content: center;
+	justify-content: center;
+  background-image: url();
 }
-#titleSpacer {
-	background-color: black;
-	height: 30px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 5px;
-}
+
 nav {
 	text-align: end;
-	justify-content: space-around;
 }
 table,
 tr,
