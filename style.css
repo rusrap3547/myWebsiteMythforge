@@ -1,12 +1,16 @@
 body {
 	background-color: lightgrey;
+	
+}
+#websiteContainer {
 	display: flex;
-	flex-direction: column;
+
 }
 h1 {
 	text-align: center;
 	justify-content: center;
-  background-image: url();
+	padding: 30px;
+	background-color: aliceblue;
 }
 
 nav {
