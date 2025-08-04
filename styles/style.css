@@ -5,7 +5,6 @@ body {
 }
 #websiteContainer {
 	display: flex;
-
 }
 h1 {
 	text-align: center;
@@ -18,17 +17,22 @@ nav {
 	text-align: end;
 }
 
+.navButton {
+	width: 40px;
+	background-color: brown;
+	box-shadow: 2px;
+}
+
 table {
 	border: 1px solid black;
 	margin: 5%;
 	width: 90%;
 	height: 30%;
-
 }
 
-tr, th, td {
-max-width: 128px;
-max-height: 128px;
+tr,
+th,
+td {
 	height: 20%;
 	border: 1px solid black;
 }
