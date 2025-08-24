@@ -1,0 +1,65 @@
+/* blogStyles.css */
+
+/* General page styles to match other pages */
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: #f9f9fb;
+	color: #222;
+	margin: 0;
+	padding: 0;
+}
+
+/* Container for blog posts */
+.blog-posts-container {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 0 20px;
+}
+
+/* Individual blog post styling */
+.blog-post {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+	margin-bottom: 32px; /* Space between posts */
+	padding: 32px 24px;
+	transition: box-shadow 0.2s;
+}
+
+.blog-post:hover {
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog post title */
+.blog-post-title {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 12px;
+	color: #2a2a2a;
+}
+
+/* Blog post meta info */
+.blog-post-meta {
+	font-size: 0.95rem;
+	color: #888;
+	margin-bottom: 18px;
+}
+
+/* Blog post content */
+.blog-post-content {
+	font-size: 1.1rem;
+	line-height: 1.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+	.blog-posts-container {
+		padding: 0 8px;
+	}
+	.blog-post {
+		padding: 20px 10px;
+	}
+	.blog-post-title {
+		font-size: 1.3rem;
+	}
+}
